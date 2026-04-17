@@ -1,0 +1,6 @@
+arch_image = Image("archlinux-logo.png");
+arch_sprite = Sprite();
+
+arch_sprite.SetImage(arch_image);
+arch_sprite.SetX(Window.GetX() + (WIndow.GetWidth() / 2 - arch_image.GetWidth() / 2));
+arch_sprite.SetY(Window.GetHeight() - arch_image.GetHeight() - 50);
